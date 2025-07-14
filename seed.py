@@ -2,12 +2,12 @@ import json
 from mongoengine.errors import NotUniqueError
 from models import Author, Quote
 
-import os
+# import os
 
 
 if __name__ == "__main__":
 
-    print(f"=== Path is: {os.getcwd()} ===")
+    # print(f"=== Path is: {os.getcwd()} ===")
 
     with open("authors.json", encoding="utf-8") as fd:
         data = json.load(fd)
